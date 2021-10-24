@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Seus Dados Cadastrais</title>   
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+<body>
+<p>
+<div class="container">
+      <div class="col-md-12">
+      
+      </div>
+
+</div>
+
+<form name="registro" action="action.php" method="post">
+
+<legend>Seus Dados Cadastrais</legend>  
+  
+
+</p>
+<div>
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" name="nome"><br>
+</p>    
+<br>
+  <label for="cpf">CPF:</label>
+  <input type="cpf" id="cpf" name="cpf" id="cpf_digitado">
+  
+  <label for="rg">RG:</label>
+  <input type="rg" id="rg" name="rg">
+  
+   
+  <label for="sexo">Sexo:</label>
+  <input type="radio" id="f" name="sexo" value=F>Feminino
+  <input type="radio" id="m" name="sexo" value=M>Masculino<br>
+<p>
+<br>
+</p>
+
+  <label for="endereço">Endereço:</label>   
+  <input type="endereço" id="endereço" name="endereço"><br>
+</p>
+<p><br>
+  <label for="numero">Número:</label>
+  <input type="numero" id="numero" name="numero">
+
+  <label for="bairro">Bairro:</label>
+  <input type="bairro" id="bairro" name="bairro">
+
+  <label for="cidade">Cidade:</label>
+  <input type="bairro" id="cidade" name="cidade">
+</p>  
+<p><br>
+
+  <label for="estado">Estado:</label>
+  <input type="bairro" id="estado" name="estado">
+
+  <label for="cep">Cep:</label>
+  <input type="cep" id="cep" name="cep">
+</p>  
+<p><br>
+
+  <label for="telefonefixo">Telefone Fixo:</label>
+  <input type="telefonefixo" id="telefonefixo" name="telefonefixo">
+
+  <label for="telefonecelular">Telefone celular:</label>
+  <input type="telefonecelular" id="telefonecelular" name="telefonecelular">
+</p>  
+</div>         
+</p>
+<div> 
+   <button onclick="validação()">Enviar</button>
+</div>
+
+</form>
+</div>  
+</body>
+
+
+<script src="./script.js"></script>
+
+</html>
